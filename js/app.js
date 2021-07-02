@@ -1,6 +1,7 @@
 ! function($) {
     "use strict"; 
-    // Loader 
+    // Loader
+    //Copyright tejas lamba
     $(window).on('load', function() {
         $('#status').fadeOut();
         $('#preloader').delay(350).fadeOut('slow');
