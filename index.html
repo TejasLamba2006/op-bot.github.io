@@ -769,18 +769,7 @@ darkmode.showWidget();
 
 	
 	<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-		const crate = new Crate({
-		  server: "838426748345384960",
-		  channel: "855483658386407434",
-		  shard: "https://e.widgetbot.io",
-		  css: `
-		    .root .embed {
-		      width: ${window.mobilecheck() ? "100%" : "50%"};
-		    }
-		  `,
-		  notifications: true,
-		  indicator: true
-		});
+		
 		crate.notify({
 		  content: "Need help? Join the support server to receive assistance!",
 		  timeout: 10000,
